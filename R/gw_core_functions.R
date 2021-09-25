@@ -5,9 +5,8 @@
 
 # see https://ourcodingclub.github.io/tutorials/writing-r-package/
 # library(devtools)
-# setwd("/Users/geoaco/Desktop/my_docs_mac/leeds_work/research/gw_verse/gw_verse_R/gw_/R)
+# setwd("~/Documents/GitHub/gw_verse/gw/")
 # load_all(".")
-# setwd("/Users/geoaco/Desktop/my_docs_mac/leeds_work/research/gw_verse/gw_verse_R/gw_")
 # library(roxygen2); # Read in the roxygen2 R package
 # roxygenise();
 
@@ -47,7 +46,7 @@ gw_get_nearby = function(adaptive){
 #' The returned function requires the following to have been defined: a vector of distances (`dists`) such as are returned by indexing a distance matrix to get nearby observations (as determined by the function returned by `gw_get_nearby`) for a specific observation location, and an adaptive or fixed bandwidth, `bw`.
 #' @param kernel The type of distance weighting to be used: one of "bisquare", "gaussian", "exponential", "tricube" or "boxcar".
 #' @param adaptive A logical value (`TRUE` or `FALSE`) to indicate whether an adaptive or fixed bandwidth distance is being used.
-#' @return A function that returns a vector weights given an adaptive or fixed bandwdth, `bw` and a vector of distances weighted by the specified `kernel` parameter.
+#' @return A function that returns a vector weights given an adaptive or fixed bandwidth, `bw` and a vector of distances weighted by the specified `kernel` parameter.
 #' @examples
 #' # load some packages and data
 #' library(tmap)

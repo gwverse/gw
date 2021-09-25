@@ -12,7 +12,7 @@ gw_get_weight(kernel, adaptive)
 \item{adaptive}{A logical value (`TRUE` or `FALSE`) to indicate whether an adaptive or fixed bandwidth distance is being used.}
 }
 \value{
-A function that returns a vector weights given an adaptive or fixed bandwdth, `bw` and a vector of distances weighted by the specified `kernel` parameter.
+A function that returns a vector weights given an adaptive or fixed bandwidth, `bw` and a vector of distances weighted by the specified `kernel` parameter.
 }
 \description{
 Returns a function for calculating weights for each set of nearby observations for a given bandwidth, as identified by the function returned from `gw_get_nearby`. 
