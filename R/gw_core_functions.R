@@ -10,7 +10,7 @@
 # library(roxygen2); # Read in the roxygen2 R package
 # roxygenise();
 
-#' Nearby observations 
+#' Nearby observations
 #'
 #' Returns a function for determining an index of nearby observations for a specific location and for a given bandwidth. 
 #' The returned function is expected to be used within a 'function factory' approach. 
