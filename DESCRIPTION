@@ -20,6 +20,7 @@ Depends: R (>= 3.1.0), sf
 License: What license is it under?
 LazyData: true
 Imports:
+    sf,
     dplyr,
     tmap
 RoxygenNote: 7.1.1
