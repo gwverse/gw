@@ -18,7 +18,11 @@ Author: Lex Comber [aut, cre],
   Chris Brunsdon [aut, cre]
 Maintainer: Lex Comber <a.comber@leeds.ac.uk>
 Description: This package provide core functionality for other `gw_verse` related packages.
-Depends: R (>= 3.1.0)
+Depends: R (>= 3.1.0), sf
 License: What license is it under?
 LazyData: true
+Imports:
+    sf,
+    dplyr,
+    tmap
 RoxygenNote: 7.1.1
