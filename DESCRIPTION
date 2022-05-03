@@ -1,7 +1,7 @@
 Package: gw
 Type: Package
 Title: GW Core Package
-Version: 0.0.2
+Version: 0.0.3
 Authors@R: person("Lex", "Comber", email = "a.comber@leeds.ac.uk",
                   role = c("aut", "cre"))
            person("Paul", "Harris", email = "paul.harris@rothamsted.ac.uk",
